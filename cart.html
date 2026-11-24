@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart page</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header id="header">
+        <img src="assets/images/logo.png" alt="BiteBox logo" width="200">
+        <nav>
+ 
+        <a href="#home">Home</a>
+        <a href="#specialities">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+       </nav>
+       </header>
+       <section id="cart-hero">
+        <h2>Your Shopping Cart</h2>
+        <p>
+            Review your food item before proceedding to checkout
+        </p>
+        <hr>
+        <p>
+            Update quaintites  remove item and confirm your order
+        </p>
+       </section>
+       <section id="cart-details">
+       <table id="shopping-cart" border="1">
+
+        <thead>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Action</th>
+        </tr>
+       </thead>
+
+        <tbody id="cart-items">
+        
+        </tbody>
+
+</table>
+</section>
+       <section id="order-summary">
+        <h3>Order Summary</h3>
+        <p><span>Subtotals (<span id="item-court">0</span>items)</span>
+            <span id="subtotal-amount">Rs.0.00</span></p>
+        <p><span>Delivery charges</span>
+            <span id="delivery-amount">Rs0.00</span></p>
+       
+        <hr>
+        <h3><span>Total Amount</span>
+            <span id="total-amount">Rs.886</span></h3>
+        <button id="checkout">Proceed to Checkout</button>
+        <p><img src="assets/images/shield.jpg" alt="secure" width="18">Secure Payment</p>
+       </section>
+
+       <section id="cart-actions">
+        <a href="menu.html">
+            <img src="assets/images/left-arrow.png" alt="" width="18" height="18">
+            Continue Shopping
+        </a>
+         <button id="clear-cart">
+         <img src="assets/images/delete.png"  alt="" width="18" height="18">
+         Clear Cart 
+        </button>
+       </section>
+
+             <footer id="footer">
+            <section id="quick-links">
+                <h3>Quicks Links </h3>
+               <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+               </ul>
+            </section>
+            <section id="payment-method">
+                <h3>Payment method</h3>
+                <img src="assets/images/visa.jpg" alt="Visa" width="60">
+                <img src="assets/images/master.png" alt="Mastercard" width="60">
+                <img src="assets/images/upi.jpg" alt="UPI" width="60">
+                <img src="" alt="Paytm" width="60">
+             
+            </section>
+            
+   <p>2026 BiteBox.All rights reserved</p>
+   <a href="#header">BAck to top</a>
+   
+        </footer>
+    <script src="js/script.js"></script>    
+</body>
+</html>

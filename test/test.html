@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BiteBox</title>
+</head>
+<body>
+
+    <h1>Welcome to BiteBox</h1>
+
+    <input type="text" id="food" placeholder="Enter food name">
+
+    <button onclick="addFood()">Add Food</button>
+
+    <ul><h3>Food Name:</h3>
+    <li><p id="result"></p></li>
+    </ul>
+   
+<script>
+    function addFood()
+        {
+            let foodName = document.getElementById("food").value;
+            document.getElementById("result").innerHTML = foodName;
+        }
+</script>
+</body>
+</html>
